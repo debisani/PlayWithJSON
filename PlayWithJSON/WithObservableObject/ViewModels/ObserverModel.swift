@@ -18,7 +18,6 @@ class ObserverModel : ObservableObject {
         URLSession.shared.dataTask(with: url) {(data, response, error) in
             do {
                 if let postData = data {
-                    // 3.
                     let decodedData = try JSONDecoder().decode([Post].self, from: postData)
                     DispatchQueue.main.async {
                         self.post = decodedData
