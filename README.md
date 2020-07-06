@@ -1,2 +1,2 @@
 # PlayWithJSON
-Hello everyone this source contains Integrates with API JSON/XML/Web/CSV.
+Hello everyone this source parse API JSON/XML/Web/CSV.
